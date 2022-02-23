@@ -1,8 +1,3 @@
-'''
-Created on Feb 23, 2021
-
-@author: nigel
-'''
 from enum import Enum
 from pickle import TRUE
 
@@ -66,4 +61,3 @@ class SHome(object):
             ret[str(i)] = light
             i += 1
         return ret
-    
