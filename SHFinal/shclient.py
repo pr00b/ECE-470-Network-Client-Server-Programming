@@ -1,9 +1,3 @@
-'''
-Created on Feb 19, 2021
-
-@author: nigel
-'''
-
 from message import Message
 from shprotocol import SHProtocol
 
@@ -67,6 +61,4 @@ class SHClient(object):
                 ms.addParam(mr.getParam('1'), user)
                 self._shp.putMessage(ms)
         except Exception:
-            self._shp.close()
-            
-            
+            self._shp.close()            
