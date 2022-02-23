@@ -1,9 +1,3 @@
-'''
-Created on Feb 19, 2021
-
-@author: nigel
-'''
-
 from message import Message
 from shprotocol import SHProtocol
 from shome import SHome
