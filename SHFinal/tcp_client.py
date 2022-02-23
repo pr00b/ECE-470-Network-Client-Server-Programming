@@ -1,9 +1,3 @@
-'''
-Created on Feb 19, 2021
-
-@author: nigel
-'''
-
 import socket
 from shprotocol import SHProtocol
 from shclient import SHClient
