@@ -207,6 +207,5 @@ def runServer():
     if not isRunning:  # Closes server once game is finished and results are returned
         serversoc.close()
 
-
 if __name__ == '__main__':
     runServer()
